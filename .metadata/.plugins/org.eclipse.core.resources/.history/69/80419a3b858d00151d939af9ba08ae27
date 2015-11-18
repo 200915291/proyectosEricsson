@@ -1,0 +1,8 @@
+package com.ericsson.tablero;
+
+public class tablero {
+  int columna; 
+  int fila;
+  boolean ocupado;
+  
+}

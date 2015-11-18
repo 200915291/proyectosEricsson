@@ -1,0 +1,24 @@
+package com.ericsson.inversion;
+
+public class Inversion {
+
+	
+	public void calcular(Double valor1){
+		Double temp=valor1;
+		
+		//PRIMER ANIO
+		valor1=valor1+valor1*40/100;
+		
+		//SEGUNDO ANIO
+		valor1=valor1-1500;
+		
+		//TERCER ANIO
+		valor1=valor1+valor1*12/100;
+		
+		System.out.println("La inversion inicial de: " + temp + " al pasar tres anios, es: " + valor1);
+	}
+	
+
+	
+	
+}

@@ -1,0 +1,7 @@
+package com.ericsson.tablero;
+
+public class tablero {
+	public void liberar_posicion(){}
+	public void ocupar_posicion(){}
+	public void asignar_extremos(){}
+}

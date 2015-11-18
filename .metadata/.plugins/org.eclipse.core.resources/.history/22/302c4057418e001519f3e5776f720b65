@@ -1,0 +1,11 @@
+package com.ericsson.Inversion;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Inversion inv=new Inversion();
+		inv.calcular(14000.0);
+	}
+
+}

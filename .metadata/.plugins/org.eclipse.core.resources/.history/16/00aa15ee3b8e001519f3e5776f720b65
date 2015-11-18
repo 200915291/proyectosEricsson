@@ -1,0 +1,50 @@
+package com.ericsson.calculadora;
+
+public class Calculadora {
+	private Float valor1;
+	private Float valor2;
+	private final Float IVA=(float)12.0;
+	
+	
+	public Calculadora() {
+	}
+
+	public Calculadora(float valor1, float valor2){
+		this.valor1 =valor1;
+		this.valor2 =valor2;
+	}
+	
+	public void sumar(){
+		if (verificar_datos())
+			System.out.println("SUMA: " + (this.valor1 +this.valor2));
+	}
+	
+	public void restar(){
+		if (verificar_datos())
+			System.out.println("RESTA: " + (this.valor1 -this.valor2));
+	}
+
+	public void dividir(){
+		if (verificar_datos())
+			System.out.println("DIVISION: " + (this.valor1 /this.valor2));
+	}
+
+	public void mod(){
+		if (verificar_datos())
+			System.out.println("MOD: " + (this.valor1 %this.valor2));
+	}
+
+	public void obtener_iva(float valor3){
+		if (verificar_datos())
+			System.out.println("IVA: " + (valor3 *IVA));
+	}
+
+	public boolean verificar_datos(){
+		if(this.valor1==null || this.valor2 == null){
+			System.err.println("Los valores no se han inicializado");
+			return false;
+		}
+		return true;
+	}
+
+}

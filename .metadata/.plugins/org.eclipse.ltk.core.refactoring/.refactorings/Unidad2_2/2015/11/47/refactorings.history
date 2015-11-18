@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.ericsson.DivisionMod&apos; to &apos;com.ericsson.divisionmod&apos;&#x0A;- Original project: &apos;Unidad2_2&apos;&#x0A;- Original element: &apos;Unidad2_2/src/com.ericsson.DivisionMod&apos;&#x0A;- Renamed element: &apos;Unidad2_2/src/com.ericsson.divisionmod&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.ericsson.DivisionMod&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.ericsson.DivisionMod" name="com.ericsson.divisionmod" qualified="false" references="true" stamp="1447884658813" textual="false" version="1.0"/>
+</session>

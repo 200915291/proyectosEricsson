@@ -1,0 +1,19 @@
+package com.ericsson.tablero;
+import java.util.ArrayList;
+
+public class Tablero {
+	public ArrayList<Posicion> tablero = new ArrayList<Posicion>();
+
+	public void liberar_posicion(){}
+	public void ocupar_posicion(){}
+	
+	public void crear_tablero(){
+		Posicion temp_pos;
+		for (int i=0; i<8; i++){
+			for (int j=0; j<8; j++){
+  			    temp_pos=new Posicion(i,j,false);
+				tablero.add(temp_pos);
+			}	
+		}
+	}
+}

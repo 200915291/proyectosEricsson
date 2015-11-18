@@ -1,0 +1,12 @@
+package com.ericsson.piezas;
+
+public class Pieza {
+	String color;
+	int valor;
+	int tipo; //0=peon, 1=torre, 2=caballo, 3=arfil, 4=reina, 5=rey
+	boolean pasa_arriba;
+	boolean mover_adelante;
+	boolean mover_izquierda;
+	boolean mover_derecha;
+	boolean mover_atras;
+}
