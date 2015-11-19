@@ -1,0 +1,30 @@
+package com.ericsson.fechas;
+
+public class Fechas {
+	
+	String fecha;
+
+	public Fechas(String fecha){
+		this.fecha=fecha;
+	}
+	
+	public boolean retornarCumple(){
+		
+		if(this.fecha ==null){
+			System.err.println("Debes ingresar una fecha");
+			return false;
+		}
+		
+		String[] detalles=this.fecha.split("/");
+		if(detalles.length!=3){
+			System.err.println("Formato Incorrecto");
+			return false;
+		}
+		
+		System.out.println("DIA: "+ detalles[0]); 
+		System.out.println("MES: " + detalles[1]); 
+		System.out.println("ANIO: "+detalles[2]); 
+		return false;
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.ericsson.calculadora;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Calculadora cal=new Calculadora();
+		cal.sumar();
+		
+		Calculadora calculo=new Calculadora(25.63, 56.25);
+		calculo.sumar();
+		calculo.restar();
+		calculo.dividir();
+		calculo.mod();
+		calculo.obtenerIva(56.23);
+
+	}
+
+}

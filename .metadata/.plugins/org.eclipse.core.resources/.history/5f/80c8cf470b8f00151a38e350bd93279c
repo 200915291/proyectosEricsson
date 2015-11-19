@@ -1,0 +1,7 @@
+package com.ericsson.atributos;
+
+public class Atributos {
+
+	public Integer height, weight, depth;
+	
+}
