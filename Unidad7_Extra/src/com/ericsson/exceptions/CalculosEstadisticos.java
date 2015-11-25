@@ -47,6 +47,7 @@ public class CalculosEstadisticos {
 			e.printStackTrace();
 		}
 		
+		System.out.println("Finalizacion de calculos... ");
 	}
 
 	
